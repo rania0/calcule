@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<title></title>
+</head>
+<body>
+	<H1 id="titre">JAVASCRIPT</H1>
+    <img src="file:///C:/Users/Joker/Desktop/java%20rania%20ben%20chaaben/tp3.3/images/html.png" id="img3">
+	<p><input type="button" value="Ex1" id="b1"> Somme de 2 Nombres</p>
+
+	<p><input type="button" value="Ex2" id="b2"> Valeur absolue </p>
+	<p><input type="button" value="Ex3" id="b3"> Equation du 1er degré</p>
+	<p><input type="button" value="soluex1" id="sln1" > script ex1</p>
+	<p><input type="button" value="soluex2" id="sln2"> script ex2</p>
+	<p><input type="button" value="soluex3" id="sln3"> script ex3</p>
+	<p><input type="button" value="Ex4" id="ex4" ><div id="b4"><div id="x1"></div></div></p>
+	<div id="tt">
+		<p id="t">
+			function somme(){
+			<br>
+	        var x = prompt('Saisir x:');
+	        <br> 
+            x = Number(x) ;
+            <br>
+            var y= prompt('Saisir y:');
+            <br> 
+            y = Number(y) ;
+            <br>
+            var z=x+y;
+            <br>
+            alert(x + "+" + y + "=" + z);}
+            <br>
+        </p>
+    </div>
+    <div id="tt1">
+    	<p id="t">
+    		function valeur(){
+    		<br>
+ 	        var A = prompt('Entrez un nombre');
+ 	        <br>
+            A = Number(A);
+            <br>
+            alert("|" + A + "| = " + Math.abs(A));}
+            <br>
+    	</p>
+    </div>
+    <div id="tt2">
+    	<p id="t">
+    		function equation(){
+    		<br>
+ 	        var a, b 
+ 	        <br> 
+            a = prompt('a');
+            <br> 
+            a = Number(a);
+            <br>
+            a = prompt('b');
+            <br>  
+            b = Number(b);
+            <br>
+            if (a == 0 && b == 0) { 
+            <br>
+            alert('IR') } 
+            <br>
+    	    else if (a == 0 && b != 0) {
+    	    <br> 
+    	    alert("Pas de Solution dans IR") }
+    	    <br>
+    		else { alert("x= " + -b / a) } }
+    		<br>
+    	</p>
+    </div>
+    <script src="code2.js"></script>
+</body>
+</html>

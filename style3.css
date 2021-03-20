@@ -1,0 +1,35 @@
+h1{text-align:center;
+color:black; }
+body{background-color:blue ; }
+p{color:white;}
+#t {
+   
+    padding:100px;
+    margin:100px;
+    background-color:  black;
+    float:right;
+    font-size: 150%;
+}
+#tt {
+	display:none;
+}
+#tt1 {
+	display:none;
+}
+#tt2 {
+	display:none;
+}
+#b4{
+	text-align: center;
+	background: pink;
+	padding: 10px;
+	width: 100px;
+	height: 50px;
+}
+img{
+	padding: 10px;
+	width: 100px;
+	height: 50px;
+	float: right;
+
+}
